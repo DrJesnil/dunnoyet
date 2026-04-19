@@ -1,0 +1,220 @@
+2026-04-19 02:54:24.074 [info] [Python] Native locator: Refresh started
+2026-04-19 02:54:24.251 [info] [Python Locator] Starting Python Locator c:\Users\drush\.vscode\extensions\ms-python.python-2026.4.0-win32-x64\python-env-tools\bin\pet.exe server
+2026-04-19 02:54:24.292 [error] [Python Locator] [2m   0.042525900s[0m [33m WARN[0m [2mpet_windows_registry::environments[0m[2m:[0m Failed to open HKLM\Software\Python, Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." }
+[2m   0.046781600s[0m [33m WARN[0m [2mpet_windows_registry::environments[0m[2m:[0m Failed to open HKCU\Software\Python, Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." }
+
+2026-04-19 02:54:24.475 [info] [Python] Native locator: Refresh started
+2026-04-19 02:54:24.522 [info] [Python] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-04-19 02:54:24.523 [info] [Python] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-04-19 02:54:24.740 [info] [Python] > pyenv which python
+2026-04-19 02:54:24.740 [info] [Python] cwd: .
+2026-04-19 02:54:31.126 [info] [Python Environments] Python-envs extension version: 1.28.0
+2026-04-19 02:54:31.126 [info] [Python Environments] 
+=== Python Envs Configuration Levels ===
+2026-04-19 02:54:31.126 [info] [Python Environments] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-04-19 02:54:31.131 [info] [Python Environments] [pet] Starting Python Locator c:\Users\drush\.vscode\extensions\ms-python.vscode-python-envs-1.28.0-win32-x64\python-env-tools\bin\pet.exe server
+2026-04-19 02:54:31.131 [info] [Python Environments] Registering pyenv manager (environments will be discovered lazily)
+2026-04-19 02:54:31.131 [info] [Python Environments] Registering pipenv manager (environments will be discovered lazily)
+2026-04-19 02:54:31.132 [info] [Python Environments] Registering poetry manager (environments will be discovered lazily)
+2026-04-19 02:54:31.544 [info] [Python Environments] [pet] configure: Sending configuration update: {"workspaceDirectories":["c:\\Users\\drush\\Documents\\GitHub\\dunnoyet"],"environmentDirectories":["c:/Users/drush/Documents/GitHub/dunnoyet/.venv","c:/Users/drush/Documents/GitHub/dunnoyet/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"c:\\Users\\drush\\AppData\\Roaming\\Code\\User\\globalStorage\\ms-python.vscode-python-envs\\pythonLocator"}
+2026-04-19 02:54:34.835 [error] [Python Environments] [pet] [2m   0.892783400s[0m [33m WARN[0m [2mpet_windows_registry::environments[0m[2m:[0m Failed to open HKLM\Software\Python, Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." }
+[2m   0.893871700s[0m [33m WARN[0m [2mpet_windows_registry::environments[0m[2m:[0m Failed to open HKCU\Software\Python, Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." }
+
+2026-04-19 02:54:34.865 [info] [Python Locator] Refresh completed in 7766ms
+2026-04-19 02:54:34.867 [info] [Python] Native locator: Refresh finished in 10796 ms
+2026-04-19 02:54:34.877 [info] [Python Environments] Conda not found, turning off conda features. [Error: Conda not found
+	at F (c:\Users\drush\.vscode\extensions\ms-python.vscode-python-envs-1.28.0-win32-x64\dist\extension.js:2:598008)
+	at runNextTicks (node:internal/process/task_queues:64:5)
+	at process.processImmediate (node:internal/timers:452:9)
+	at async L (c:\Users\drush\.vscode\extensions\ms-python.vscode-python-envs-1.28.0-win32-x64\dist\extension.js:2:598133)
+	at async t.registerCondaFeatures (c:\Users\drush\.vscode\extensions\ms-python.vscode-python-envs-1.28.0-win32-x64\dist\extension.js:2:618030)
+	at async t.safeRegister (c:\Users\drush\.vscode\extensions\ms-python.vscode-python-envs-1.28.0-win32-x64\dist\extension.js:2:282183)
+	at async Promise.all (index 1)
+	at async Immediate.<anonymous> (c:\Users\drush\.vscode\extensions\ms-python.vscode-python-envs-1.28.0-win32-x64\dist\extension.js:2:743851)]
+2026-04-19 02:54:34.894 [info] [Python Environments] [interpreterSelection] Applying initial environment selection for 1 workspace folder(s)
+2026-04-19 02:54:34.914 [info] [Python Environments] Running: uv --version
+2026-04-19 02:54:34.942 [info] [Python Environments] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":1600,"breakdown":{"GlobalVirtualEnvs":80,"Locators":1574,"Path":231,"Workspaces":253},"locators":{"Conda":1547,"PipEnv":12,"Pixi":0,"Poetry":13,"PyEnv":29,"Uv":0,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0,"WinPython":278,"WindowsRegistry":1,"WindowsStore":0}}}}
+2026-04-19 02:54:35.197 [info] [Python] > python -c "import sys;print(sys.executable)"
+2026-04-19 02:54:36.088 [info] [Python Environments] uv not found, installing uv first...
+2026-04-19 02:54:36.091 [info] [Python Environments] Installing uv: powershell -ExecutionPolicy Bypass -c irm https://astral.sh/uv/install.ps1 | iex
+2026-04-19 02:54:36.729 [error] [Python] [Error: Command failed: python -c "import sys;print(sys.executable)"
+Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+	at genericNodeError (node:internal/errors:983:15)
+	at wrappedFn (node:internal/errors:537:14)
+	at ChildProcess.exithandler (node:child_process:418:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1101:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)] {
+  code: 9009,
+  killed: false,
+  signal: null,
+  cmd: 'python -c "import sys;print(sys.executable)"'
+}
+2026-04-19 02:54:36.906 [info] [Python] > pyenv which python
+2026-04-19 02:54:36.906 [info] [Python] cwd: .
+2026-04-19 02:54:38.753 [info] [Python Language Server] Client: Pylance client (2026.2.1) started with python extension (2026.4.0)
+2026-04-19 02:54:44.450 [info] [Python Language Server] (16488): Server root directory: file:///c%3A/Users/drush/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist
+2026-04-19 02:54:44.467 [info] [Python Language Server] (16488): Pylance language server 2026.2.1 (pyright version 1.1.408, commit 138238b4) starting
+2026-04-19 02:54:44.528 [info] [Python Language Server] (16488): Starting service instance "dunnoyet" for workspace "c:\Users\drush\Documents\GitHub\dunnoyet"
+2026-04-19 02:55:10.402 [info] [Python Language Server] (16488): Loading background bundle file:///c%3A/Users/drush/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist/copilot-background.bundle.js into file:///c%3A/Users/drush/Documents/GitHub/dunnoyet...
+2026-04-19 02:55:10.997 [info] [Python] Starting Pylance language server.
+2026-04-19 02:55:12.595 [info] [Python Language Server] (16488): PQ(dunnoyet): Priority queue background worker(2) root directory: file:///c%3A/Users/drush/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist
+2026-04-19 02:55:12.643 [info] [Python Language Server] (16488): PQ(dunnoyet): Priority queue background worker(2) started
+2026-04-19 02:55:13.126 [info] [Python] > python -c "import sys;print(sys.executable)"
+2026-04-19 02:55:13.364 [info] [Python Language Server] Failed to get active python environment for MCP server. MCP server disabled.
+2026-04-19 02:55:15.181 [info] [Python Language Server] (16488): FG(dunnoyet): Setting environmentName for service "dunnoyet": "python"
+2026-04-19 02:55:15.217 [info] [Python Language Server] (16488): FG(dunnoyet): No include entries specified; assuming c:\Users\drush\Documents\GitHub\dunnoyet
+2026-04-19 02:55:15.330 [info] [Python Language Server] (16488): FG(dunnoyet): Auto-excluding **/node_modules
+2026-04-19 02:55:15.332 [info] [Python Language Server] (16488): FG(dunnoyet): Auto-excluding **/__pycache__
+2026-04-19 02:55:15.333 [info] [Python Language Server] (16488): FG(dunnoyet): Auto-excluding **/.*
+2026-04-19 02:55:18.843 [error] [Python Language Server] Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+2026-04-19 02:55:22.200 [error] [Python Language Server] Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+2026-04-19 02:55:22.200 [error] [Python Language Server] Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+2026-04-19 02:55:22.501 [info] [Python Language Server] (16488): FG(dunnoyet): No source files found.
+2026-04-19 02:55:22.504 [info] [Python Language Server] (16488): Settings have not changed. Skipping update.
+2026-04-19 02:55:30.295 [info] [Python Environments] uv installed successfully
+2026-04-19 02:55:30.306 [info] [Python Environments] Running: uv --version
+2026-04-19 02:55:30.308 [error] [Python Environments] uv installed but not found on PATH - may require terminal restart
+2026-04-19 02:55:30.353 [info] [Python Environments] [SYS_GET] uri=c:\Users\drush\Documents\GitHub\dunnoyet, normalizedKey=c:/users/drush/documents/github/dunnoyet, project=c:\Users\drush\Documents\GitHub\dunnoyet, projectKey=c:/users/drush/documents/github/dunnoyet, mapKeys=[], directHit=false, projectHit=false, fallbackToGlobal=true, globalEnv=none
+2026-04-19 02:55:30.456 [info] [Python Environments] [interpreterSelection] dunnoyet: none (source: autoDiscovery)
+2026-04-19 02:55:30.474 [info] [Python Environments] [interpreterSelection] global: none (source: autoDiscovery)
+2026-04-19 02:55:30.968 [info] [Python Environments] Refreshing pyenv environments
+2026-04-19 02:55:31.601 [info] [Python Environments] Pipenv not found via settings, cache, or PATH
+2026-04-19 02:55:31.602 [info] [Python Environments] Refreshing pipenv environments
+2026-04-19 02:55:31.671 [info] [Python Environments] Pipenv not found via settings, cache, or PATH
+2026-04-19 02:55:31.672 [info] [Python Environments] Found 0 pipenv environments
+2026-04-19 02:55:31.739 [info] [Python Environments] Pipenv not found via settings, cache, or PATH
+2026-04-19 02:55:31.809 [info] [Python Environments] Refreshing poetry environments
+2026-04-19 02:55:31.919 [info] [Python Environments] Poetry executable not found
+2026-04-19 02:55:32.034 [warning] [Python Environments] No Python environments were found. Try running "Python Environments: Run Python Environment Tool (PET) in Terminal..." from the Command Palette to diagnose. If environments should be detected, please report this: https://github.com/microsoft/vscode-python-environments/issues/new
+2026-04-19 02:57:36.458 [info] [Python Language Server] (16488): Settings have not changed. Skipping update.
+2026-04-19 03:30:53.371 [info] [Python Language Server] (16488): FG(dunnoyet): IDX(dunnoyet): Indexer background runner(3) root directory: file:///c%3A/Users/drush/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist (refresh)
+2026-04-19 03:30:53.373 [info] [Python Language Server] (16488): FG(dunnoyet): IDX(dunnoyet): Indexing(3) started
+2026-04-19 03:30:54.067 [error] [Python Language Server] Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+2026-04-19 03:30:57.802 [info] [Python Language Server] (16488): FG(dunnoyet): IDX(dunnoyet): Long operation: scan packages file:///c%3A/Users/drush/Documents/GitHub/dunnoyet (3036ms)
+2026-04-19 03:30:57.803 [info] [Python Language Server] (16488): FG(dunnoyet): IDX(dunnoyet): scanned(3) 0 files over 1 exec env
+2026-04-19 03:30:58.241 [info] [Python Language Server] (16488): FG(dunnoyet): IDX(dunnoyet): Indexing finished(3).
+2026-04-19 03:32:03.111 [info] [Python] Native locator: Refresh started
+2026-04-19 03:32:03.156 [error] [Python Locator] [2m2258.919939000s[0m [33m WARN[0m [2mpet_windows_registry::environments[0m[2m:[0m Failed to open HKLM\Software\Python, Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." }
+
+2026-04-19 03:32:03.160 [error] [Python Locator] [2m2258.922980700s[0m [33m WARN[0m [2mpet_windows_registry::environments[0m[2m:[0m Failed to open HKCU\Software\Python, Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." }
+
+2026-04-19 03:32:03.652 [info] [Python Locator] Refresh completed in 521ms
+2026-04-19 03:32:03.653 [info] [Python] Native locator: Refresh finished in 549 ms
+2026-04-19 03:32:06.884 [warning] [Python] User did not select a Python environment in Select Python Tool(2).
+2026-04-19 03:40:53.114 [info] [Python] Selected workspace c:\Users\drush\Documents\GitHub\dunnoyet for creating virtual environment.
+2026-04-19 03:40:53.121 [info] [Python] Native locator: Refresh started
+2026-04-19 03:40:53.164 [error] [Python Locator] [2m2788.928027700s[0m [33m WARN[0m [2mpet_windows_registry::environments[0m[2m:[0m Failed to open HKLM\Software\Python, Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." }
+
+2026-04-19 03:40:53.232 [info] [Python Locator] Discovered env: C:\Users\drush\AppData\Local\Programs\Python\Python314\python.exe
+2026-04-19 03:40:53.840 [info] [Python Locator] Refresh completed in 704ms
+2026-04-19 03:40:53.842 [info] [Python] Native locator: Refresh finished in 722 ms
+2026-04-19 03:41:23.396 [info] [Python] Native locator: Refresh started
+2026-04-19 03:41:23.485 [error] [Python Locator] [2m2819.245972400s[0m [33m WARN[0m [2mpet_windows_registry::environments[0m[2m:[0m Failed to open HKLM\Software\Python, Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." }
+
+2026-04-19 03:41:23.520 [info] [Python Locator] Discovered env: C:\Users\drush\AppData\Local\Programs\Python\Python314\python.exe
+2026-04-19 03:41:24.024 [info] [Python Locator] Refresh completed in 585ms
+2026-04-19 03:41:24.025 [info] [Python] Native locator: Refresh finished in 632 ms
+2026-04-19 03:41:26.878 [info] [Python] Selected interpreter C:\Users\drush\AppData\Local\Programs\Python\Python314\python.exe for creating virtual environment.
+2026-04-19 03:41:27.272 [info] [Python] Running Env creation script:  [
+  'C:\\Users\\drush\\AppData\\Local\\Programs\\Python\\Python314\\python.exe',
+  'c:\\Users\\drush\\.vscode\\extensions\\ms-python.python-2026.4.0-win32-x64\\python_files\\create_venv.py',
+  '--git-ignore'
+]
+2026-04-19 03:41:27.272 [info] [Python] > ~\AppData\Local\Programs\Python\Python314\python.exe ~\.vscode\extensions\ms-python.python-2026.4.0-win32-x64\python_files\create_venv.py --git-ignore
+2026-04-19 03:41:27.272 [info] [Python] cwd: .
+2026-04-19 03:41:28.030 [info] [Python] Running: C:\Users\drush\AppData\Local\Programs\Python\Python314\python.exe -m venv .venv
+2026-04-19 03:41:29.722 [info] [Python Locator] Resolved Python Environment c:\Users\drush\Documents\GitHub\dunnoyet\.venv\Scripts\python.exe
+2026-04-19 03:42:00.375 [info] [Python] CREATED_VENV:c:\Users\drush\Documents\GitHub\dunnoyet\.venv\Scripts\python.exe
+2026-04-19 03:42:00.377 [info] [Python] CREATE_VENV.UPGRADING_PIP
+Running: c:\Users\drush\Documents\GitHub\dunnoyet\.venv\Scripts\python.exe -m pip install --upgrade pip
+2026-04-19 03:42:00.816 [error] [Python Environments] [pet] [2m2850.040495900s[0m [33m WARN[0m [2mpet_windows_registry::environments[0m[2m:[0m Failed to open HKLM\Software\Python, Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." }
+
+2026-04-19 03:42:00.867 [info] [Python Environments] Discovered env: C:\Users\drush\AppData\Local\Programs\Python\Python314\python.exe
+2026-04-19 03:42:00.903 [info] [Python Environments] Discovered env: C:\Users\drush\AppData\Roaming\uv\python\cpython-3.14.4-windows-x86_64-none\python.exe
+2026-04-19 03:42:00.930 [info] [Python Environments] Discovered env: c:\Users\drush\Documents\GitHub\dunnoyet\.venv\Scripts\python.exe
+2026-04-19 03:42:01.657 [info] [Python Environments] Resolved environment during PET refresh: c:\Users\drush\Documents\GitHub\dunnoyet\.venv\Scripts\python.exe
+2026-04-19 03:42:01.876 [info] [Python Environments] [pet] Telemetry:  {"event":"RefreshPerformance","data":{"refreshPerformance":{"total":1064,"breakdown":{"GlobalVirtualEnvs":38,"Locators":1064,"Path":70,"Workspaces":150},"locators":{"Conda":1047,"PipEnv":2,"Pixi":0,"Poetry":29,"PyEnv":17,"Uv":44,"Venv":0,"VirtualEnv":0,"VirtualEnvWrapper":0,"WinPython":257,"WindowsRegistry":48,"WindowsStore":2}}}}
+2026-04-19 03:42:01.883 [info] [Python Environments] Found venv environment: cpython-3.14.4-windows-x86_64-none (3.14.4)
+2026-04-19 03:42:01.894 [info] [Python Environments] Found venv environment: .venv (3.14.4)
+2026-04-19 03:42:06.458 [info] [Python] Requirement already satisfied: pip in .\.venv\Lib\site-packages (26.0.1)
+2026-04-19 03:42:11.223 [info] [Python] CREATE_VENV.UPGRADED_PIP
+2026-04-19 03:42:11.384 [info] [Python] Active interpreter [c:\Users\drush\Documents\GitHub\dunnoyet]:  c:\Users\drush\Documents\GitHub\dunnoyet\.venv\Scripts\python.exe
+2026-04-19 03:42:11.480 [info] [Python Locator] Resolved Python Environment c:\Users\drush\Documents\GitHub\dunnoyet\.venv\Scripts\python.exe
+2026-04-19 03:42:11.526 [info] [Python] Running installed packages checker:  {
+  id: 'c:\\Users\\drush\\Documents\\GitHub\\dunnoyet\\.venv\\Scripts\\python.exe',
+  sysPrefix: 'c:\\Users\\drush\\Documents\\GitHub\\dunnoyet\\.venv',
+  envType: 'Venv',
+  envName: '.venv',
+  envPath: 'c:\\Users\\drush\\Documents\\GitHub\\dunnoyet\\.venv\\Scripts\\python.exe',
+  path: 'c:\\Users\\drush\\Documents\\GitHub\\dunnoyet\\.venv\\Scripts\\python.exe',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.14.4',
+    major: 3,
+    minor: 14,
+    patch: 4,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.14.4 (.venv)',
+  detailedDisplayName: 'Python 3.14.4 (.venv)',
+  type: 'Virtual'
+} c:\Users\drush\.vscode\extensions\ms-python.python-2026.4.0-win32-x64\python_files\installed_check.py c:\Users\drush\Documents\GitHub\dunnoyet\pyproject.toml
+2026-04-19 03:42:11.526 [info] [Python] > .\.venv\Scripts\python.exe ~\.vscode\extensions\ms-python.python-2026.4.0-win32-x64\python_files\installed_check.py .\pyproject.toml
+2026-04-19 03:42:11.527 [info] [Python] Python interpreter path: .\.venv\Scripts\python.exe
+2026-04-19 03:42:11.832 [info] [Python Language Server] (16488): FG(dunnoyet): Loading pyproject.toml file at c:\Users\drush\Documents\GitHub\dunnoyet\pyproject.toml
+2026-04-19 03:42:11.964 [info] [Python Language Server] (16488): FG(dunnoyet): Pyproject file "c:\Users\drush\Documents\GitHub\dunnoyet\pyproject.toml" has no "[tool.pyright]" section.
+2026-04-19 03:42:11.966 [info] [Python Language Server] (16488): FG(dunnoyet): Setting environmentName for service "dunnoyet": "3.14.4 (.venv venv)"
+2026-04-19 03:42:11.967 [info] [Python Language Server] (16488): FG(dunnoyet): Setting pythonPath for service "dunnoyet": "c:\Users\drush\Documents\GitHub\dunnoyet\.venv\Scripts\python.exe"
+2026-04-19 03:42:11.968 [info] [Python Language Server] (16488): FG(dunnoyet): No include entries specified; assuming c:\Users\drush\Documents\GitHub\dunnoyet
+2026-04-19 03:42:11.970 [info] [Python Language Server] (16488): FG(dunnoyet): Auto-excluding **/node_modules
+2026-04-19 03:42:11.973 [info] [Python Language Server] (16488): FG(dunnoyet): Auto-excluding **/__pycache__
+2026-04-19 03:42:11.975 [info] [Python Language Server] (16488): FG(dunnoyet): Auto-excluding **/.*
+2026-04-19 03:42:12.566 [info] [Python Language Server] (16488): FG(dunnoyet): Assuming Python version 3.14.4.final.0
+2026-04-19 03:42:14.136 [info] [Python Language Server] (16488): [Editable Installs] Starting dynamic pth file resolution for Python: c:\Users\drush\Documents\GitHub\dunnoyet\.venv\Scripts\python.exe
+2026-04-19 03:42:14.190 [info] [Python Language Server] (16488): [Editable Installs] No sandbox available for Python c:\Users\drush\Documents\GitHub\dunnoyet\.venv\Scripts\python.exe. Dynamic pth file resolution requires Python 3.13 or later.
+2026-04-19 03:42:14.380 [info] [Python Language Server] (16488): FG(dunnoyet): Found 1 source file
+2026-04-19 03:42:14.395 [info] [Python Language Server] (16488): Starting Mcp server id:61324 ...
+2026-04-19 03:43:19.063 [info] [Python Environments] Running: c:\Users\drush\Documents\GitHub\dunnoyet\.venv\Scripts\python.exe -m pip list
+2026-04-19 03:43:19.066 [info] [Python Environments] Python API: Changed environment from undefined to .venv (3.14.4) for: c:\Users\drush\Documents\GitHub\dunnoyet
+2026-04-19 03:43:19.066 [info] [Python Environments] Internal: Changed environment from undefined to .venv (3.14.4) for: c:\Users\drush\Documents\GitHub\dunnoyet
+2026-04-19 03:43:21.378 [info] [Python Environments] python: Package  Version Editable project location
+
+2026-04-19 03:43:21.379 [info] [Python Environments] python: -------- ------- ----------------------------------------
+
+2026-04-19 03:43:21.379 [info] [Python Environments] python: dunnoyet 0.1.0   C:\Users\drush\Documents\GitHub\dunnoyet
+
+2026-04-19 03:43:21.380 [info] [Python Environments] python: pip      26.0.1
+
+2026-04-19 03:44:09.428 [info] [Python Locator] Resolved Python Environment c:\Users\drush\Documents\GitHub\dunnoyet\.venv\Scripts\python.exe
+2026-04-19 03:44:59.446 [info] [Python Locator] Resolved Python Environment c:\Users\drush\Documents\GitHub\dunnoyet\.venv\Scripts\python.exe
+2026-04-19 03:45:18.834 [info] [Python Language Server] (16488): FG(dunnoyet): IDX(dunnoyet): Indexer background runner(4) root directory: file:///c%3A/Users/drush/.vscode/extensions/ms-python.vscode-pylance-2026.2.1/dist (refresh)
+2026-04-19 03:45:18.836 [info] [Python Language Server] (16488): FG(dunnoyet): IDX(dunnoyet): Indexing(4) started
+2026-04-19 03:45:22.158 [info] [Python Language Server] (16488): FG(dunnoyet): IDX(dunnoyet): Long operation: scan packages file:///c%3A/Users/drush/Documents/GitHub/dunnoyet (2620ms)
+2026-04-19 03:45:22.159 [info] [Python Language Server] (16488): FG(dunnoyet): IDX(dunnoyet): scanned(4) 11 files over 1 exec env
+2026-04-19 03:45:23.156 [info] [Python Language Server] (16488): FG(dunnoyet): IDX(dunnoyet): indexed(4) 11 files over 1 exec env
+2026-04-19 03:45:23.167 [info] [Python Language Server] (16488): FG(dunnoyet): IDX(dunnoyet): Indexing finished(4).
+2026-04-19 03:45:31.882 [info] [Python Locator] Resolved Python Environment c:\Users\drush\Documents\GitHub\dunnoyet\.venv\Scripts\python.exe
+2026-04-19 03:46:16.048 [info] [Python Locator] Resolved Python Environment c:\Users\drush\Documents\GitHub\dunnoyet\.venv\Scripts\python.exe
+2026-04-19 03:47:05.020 [info] [Python Environments] Terminal is activated: c:\Users\drush\Documents\GitHub\dunnoyet\.venv\Scripts\python.exe
+2026-04-19 03:47:05.020 [info] [Python] Send text to terminal: (Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned) ; (& c:\Users\drush\Documents\GitHub\dunnoyet\.venv\Scripts\Activate.ps1)
+2026-04-19 03:47:28.746 [info] [Python Locator] Resolved Python Environment c:\Users\drush\Documents\GitHub\dunnoyet\.venv\Scripts\python.exe
+2026-04-19 03:48:55.470 [info] [Python Locator] Resolved Python Environment c:\Users\drush\Documents\GitHub\dunnoyet\.venv\Scripts\python.exe
+2026-04-19 03:49:42.656 [info] [Python Locator] Resolved Python Environment c:\Users\drush\Documents\GitHub\dunnoyet\.venv\Scripts\python.exe
